@@ -1,0 +1,20 @@
+div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transition: height 2s;
+    transition: width 2s;
+    background-color: blueviolet;
+    transition-timing-function: ease-in-out;
+    /* animation-duration: 3s; */
+}
+
+div:hover {
+    width: 1280px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
