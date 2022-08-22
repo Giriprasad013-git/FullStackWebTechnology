@@ -1,0 +1,476 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: 0;
+    height: 90px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+
+/* nav h1 {
+        color: white;
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 3px;
+        font-size: 30px;
+    } */
+
+.nav-links {
+    padding: 30px 0;
+    margin-right: 10px;
+    margin-left: 850px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+
+.div2 {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+
+.div21 {
+    width: 287px;
+    height: 530px;
+    margin-top: 100px;
+    margin-left: 135px;
+    background-color: white;
+    border-radius: 37px;
+}
+
+
+/* .div211 {
+        margin-top: 60px;
+        margin-left: 20px;
+        position: absolute;
+    } */
+
+.inphone {
+    width: 273px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 7px;
+    /* padding-right: 100px; */
+}
+
+.div212 {
+    width: 44px;
+    background-color: black;
+    height: 5px;
+    margin-left: 122px;
+    margin-top: 25px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.div211 img {
+    position: absolute;
+    width: 90px;
+    height: 100px;
+}
+
+.btn1 {
+    width: 209px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 500px;
+    border-radius: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn1 span {
+    margin-left: 26px;
+    font-size: 16px;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+}
+
+.div3 footer {
+    width: auto;
+    height: 400px;
+    background-color: black;
+    margin-top: 600px;
+}
+
+.div3 footer table {
+    margin-top: 30px;
+}
+
+.div3 footer table .tr td {
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    padding-right: 90px;
+    font-size: 15px;
+    padding-bottom: 19px;
+    cursor: pointer;
+}
+
+.tr td b:hover {
+    color: rgb(2, 220, 13);
+    cursor: pointer;
+}
+
+.div3 footer table .tr td img {
+    width: 140px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.div22 {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    margin-top: 190px;
+    margin-left: 500px;
+    font-size: 65px;
+}
+
+.div22 p b {
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.hello {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    margin-top: 600px;
+}
+
+
+/* .div111 img {
+    width: 120px;
+    height: 120px;
+} */
+
+.hello1 {
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hello1 p {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hello2 {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hello21 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin: 0 30px;
+    align-items: center;
+}
+
+.hello21 img {
+    width: 130px;
+    height: 130px;
+    margin-left: 53px;
+    margin-bottom: 40px;
+}
+
+.hello21 h2 {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hello21 p {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 700px;
+}
+
+.hi {
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    width: 100%;
+    height: 480px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.hi h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hi1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.hi11 {
+    width: 1150px;
+    height: 100px;
+    background-color: white;
+    margin-left: -140px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.sc {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    width: 1250px;
+    height: 80px;
+    margin-left: 120px;
+}
+
+.sc:hover::after {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    background-color: rgb(24, 20, 21);
+    width: 1250px;
+    height: 100px;
+    margin-left: 120px;
+}
+
+.sc1 {
+    margin-left: 30px;
+    margin-top: 24px;
+    font-size: 21px;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.sc2 {
+    margin-top: 24px;
+    margin-right: 5%;
+}
+
+
+/* .faq {
+        /* border: 1px solid black; 
+    
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    display: flex;
+}
+.faq ul li {
+    font-size: 15px;
+    color: black;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+/* .first {
+        font-family: 'proxima-nova', sans-serif;
+    }
+    
+    .second {
+        font-family: 'proxima-nova', sans-serif;
+    }
+    
+    .third {
+        font-family: 'proxima-nova', sans-serif;
+    }
+    
+    .fourth {
+        font-family: 'proxima-nova', sans-serif;
+    } 
+
+details {
+    border-bottom: 1px solid black;
+    /* padding: 10px; *
+
+
+}
+details>summary {
+    font-weight: bold;
+    width: 900px;
+    color: black;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    /* display: flex; 
+
+}
+summary::after {
+    content: " ᐯ";
+}
+.first::after {
+    margin-left: 73%;
+}
+.second::after {
+    margin-left: 61.5%;
+}
+.third::after {
+    margin-left: 58%;
+}
+.fourth::after {
+    margin-left: 70.6%;
+}
+details[open] summary::after {
+    content: " ᐱ";
+    /* height: 300px; 
+
+
+}
+*/
+
+.div5 {
+    width: 100%;
+    height: 600px;
+    margin-top: -50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+
+.btn2 {
+    width: 209px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-top: 250px;
+    /* margin-left: 450px; */
+    border-radius: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn2 span {
+    margin-left: 26px;
+    font-size: 16px;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+}
+
+.div52 {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    margin-top: 100px;
+    /* margin-left: 5%; */
+    font-size: 60px;
+}
+
+.div52 p b {
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    margin-right: 50px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.logos img {
+    margin-right: 20px;
+    width: 60px;
+}
+
+.main {
+    width: 400px;
+    height: 400px auto;
+    background-color: black;
+}
+
+.aall {
+    width: 1200px;
+    height: 800px;
+    margin-left: 100px;
+    background-color: pink;
+}
+
+.head div {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.head div:hover {
+    background-color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.head div h1 {
+    font-size: 23px;
+    font-family: 'proxima-nova', sans-serif;
+    padding-left: 30px;
+}
+
+.head div i {
+    padding-right: 30px;
+}

@@ -1,0 +1,41 @@
+    div {
+        border: 1px solid black;
+        height: 500px;
+        width: 500px;
+        margin: 20px;
+        outline-style: dotted;
+        outline-width: thick;
+        outline-color: aquamarine;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    p {
+        color: blueviolet;
+        text-align: center;
+        text-decoration: overline;
+        text-decoration-color: black;
+        text-decoration-style: wavy;
+        font-size: 80px;
+    }
+    
+    p:hover {
+        text-shadow: 3px 3px palevioletred;
+    }
+    
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .ull {
+        display: flex;
+    }
+    
+    .ull li {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px;
+    }

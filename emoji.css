@@ -1,0 +1,85 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgb(32, 113, 171);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+    .face {
+        background-color: yellow;
+        height: 300px;
+        width: 300px;
+        border-radius: 300px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+    }
+    
+    .face::before {
+        content: '';
+        position: absolute;
+        height: 70px;
+        width: 150px;
+        top: 180px;
+        background: rgb(124, 102, 12);
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        /* transition: 0.5s; */
+    }
+    
+    .face:hover::before {
+        height: 20px;
+        width: 150px;
+        top: 200px;
+        background: rgb(124, 102, 12);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .eyes {
+        display: flex;
+        position: relative;
+        top: -40px;
+    }
+    
+    .eyes .eye {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background: white;
+        display: block;
+        margin: 0 15px;
+        border-radius: 100%;
+    }
+    
+    .eyes .eye::before {
+        content: '';
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 25px;
+        background: rgb(30, 23, 23);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: boll;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes boll {
+        0% {
+            background-color: black;
+            left: 50px;
+            right: 50px;
+        }
+    }
