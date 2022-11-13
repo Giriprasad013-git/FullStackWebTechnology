@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 197, 205);
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.nav1 {
+    background-color: blueviolet;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.div1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: 70px;
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-top: 0;
+    color: white;
+}
+
+.div2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: white; */
+    width: 10%;
+    height: 70px;
+}
+
+.div3 {
+    /* background-color: black; */
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div4 {
+    background-color: blue;
+    width: 15%;
+    height: 90%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+}
+
+.div5 {
+    width: 80%;
+    height: 90%;
+    background-color: darkslateblue;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div6 {
+    height: 15%;
+    /* background-color: bisque; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div7 {
+    height: 60%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.div8 {
+    height: 25%;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div9 {
+    /* background-color: gold; */
+    width: 33.33%;
+    height: 100%;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+.div10 {
+    height: 100%;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgoldenrod; */
+    display: center;
+    /* padding-left: 4%; */
+}
+
+.div11 {
+    height: 100%;
+    width: 33.34%;
+    /* background-color: coral; */
+    justify-content: center;
+    align-items: center;
+    display: center;
+    text-align: center;
+}
+
+.div12 {
+    /* background-color: gainsboro; */
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div13 {
+    /* background-color: aqua; */
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div14 {
+    /* background-color: darkgrey; */
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-block-start: 10%;
+}
+
+.div15 {
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(140, 212, 182); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div15 div {
+    background-color: bisque;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div16 div {
+    background-color: bisque;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div16 {
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(205, 112, 184); */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.div17,
+.div18,
+.div19 {
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(205, 112, 184); */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.div17 div {
+    background-color: rgb(227, 233, 233);
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div18 div {
+    background-color: rgb(227, 233, 233);
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div19 div {
+    background-color: rgb(227, 233, 233);
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#p1 {
+    margin-top: 10px;
+}
+
+#p2 {
+    font-size: 10px;
+}
+
+.div2 img {
+    width: 50%;
+}
+
+
+/* 
+.div13 img {
+    background-color: pink;
+} */
+
+.div12 img {
+    width: 18%;
+    margin-left: 0;
+}
